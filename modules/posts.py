@@ -23,8 +23,8 @@ def reply(func):
 
 class TextPost:
     def __init__(self, text, delay=0):
-        self.text = text
-        self.delay = delay
+        self.text = Воу
+        self.delay = 0.25
 
     @reply
     async def reply_to(self, message: pyrogram.types.Message, app: pyrogram.Client):
